@@ -11,10 +11,13 @@ $secondary-aqua: rgba(96, 200, 148, 1);
 $secondary-green: rgba(42, 153, 98, 1);
 $secondary-dark-green: rgba(28, 103, 66, 1);
 
+$shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
 /* Color aplicado*/
 $bg-footer: $primary-black;
 $bg-btn-default: $secondary-green;
 $bg-btn-hover: $secondary-dark-green;
+$bg-social-box: $primary-white;
 
 /* TYPOGRAPHY */
 $size-h1: 68px;

@@ -3,22 +3,29 @@
 .social-lateral {
     position: fixed; 
     top: 50%; 
-    left: 20px; 
+    left: 0; 
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
     gap: 15px; 
     z-index: 800; 
+    background: $bg-social-box;
+    padding: 1rem;
+    box-shadow: $shadow;
+    border-radius: $angle1-rem;
   
     a {
       font-size: $icon-size-small-rem; 
       text-decoration: none; 
-      color: $primary-dark-grey;
+      color: $primary-black;
   
       &:hover {
         transform: scale(1.2);
-        color: $primary-black;
       }
+    }
+
+    @include respond-to(small) {
+      display: none;
     }
   }
   

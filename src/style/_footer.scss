@@ -36,5 +36,13 @@ footer{
         justify-content: center;
         align-items: center;
         padding: 40px;
+
+        @include respond-to(small) {
+            text-align: center;
+        }
+    }
+
+    .social h2{
+        margin-top: 3rem;
     }
 }
