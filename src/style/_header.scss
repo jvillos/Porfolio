@@ -1,7 +1,18 @@
 @use "globals" as *;
 
 header {
-    padding: 40px;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: $primary-white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    @include respond-to(small) {
+        position: static;
+    }
 
     .container {
         display: flex;
@@ -64,7 +75,6 @@ header {
 
         li {
             padding: 10px 30px;
-            border-radius: 20%;
 
             &:hover {
                 background: $primary-grey;

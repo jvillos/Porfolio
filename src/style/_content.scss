@@ -1,1 +1,10 @@
 @use "globals" as *;
+
+section{
+    padding-top: 150px;
+
+    @include respond-to(small) {
+        padding-top: 20px;
+        position: static;
+    }
+}
