@@ -1,6 +1,8 @@
 # Portafolio de Juan - Web Developer
 
-Este es mi portafolio personal en línea, donde muestro algunos de los proyectos que he desarrollado como desarrollador web. El objetivo de este sitio es ofrecer una forma sencilla y atractiva de presentar mis habilidades y proyectos.
+Este es mi portfolio personal en línea, donde muestro algunos de los proyectos que he desarrollado como desarrollador web. El objetivo de este sitio es ofrecer una forma sencilla y atractiva de presentar mis habilidades y proyectos.
+
+![preview.png](/src/assets/img/preview.jpg)
 
 ## Tecnologías utilizadas
 
@@ -24,9 +26,9 @@ Este proyecto fue creado utilizando las siguientes tecnologías:
 
 La inspiración principal para la realización de este portfolio es [https://www.rammaheshwari.com/](https://www.rammaheshwari.com/)
 
-## Enlace al portafolio
+## Enlace al portfolio
 
-Puedes ver el portafolio en vivo en la siguiente URL:
+Puedes ver el portfolio en vivo en la siguiente URL:
 
 [https://jvillos.github.io/Portfolio/](https://jvillos.github.io/Portfolio/)
 
