@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
         duration: 1000,
         easing: 'ease-in-out',
         offset: 200,
-        once: false
+        once: false,
+        mirror: true
     });
+
 });
+
