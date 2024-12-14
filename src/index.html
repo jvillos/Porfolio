@@ -23,9 +23,8 @@
       <div>
         <nav>
           <ul>
-            <li><a href="#sobremi">INICIO</a></li>
             <li><a href="#sobremi">SOBRE MÍ</a></li>
-            <li><a href="#perfil">PERFIL</a></li>
+            <li><a href="#perfil-prof">PERFIL</a></li>
             <li><a href="#proyectos">PROYECTOS</a></li>
             <li><a href="#contact">CONTACTO</a></li>
           </ul>
@@ -37,98 +36,60 @@
   <main>
     <div class="container">
       <!-- = About section = -->
-      <section id="sobremi">
-        <h1>Hey, It's Óliver Over Here!</h1>
-        <p>
-          A passionate Web Developer interested mostly in Frontend
-          development, <br />
-          with a strong focus on creating impactful user experiences.
-        </p>
-        <button><a href="#proyectos">PROJECTS</a></button>
+      <section id="sobremi" class="sobremi">
+        <div class="container">
+          <div class="left" data-aos="zoom-in-right">
+            <h2>SOBRE MÍ</h2>
+            <p>
+              Soy un estudiante de Desarrollo de aplicaciones Web, apasionado del desarrollo web y de la tecnología. Con
+              un pasado en el mundo de la arqueología y el turismo, he desarrollado un gran interés en la buena
+              experiencia de usuario en el uso de aplicaciones y en la simplicidad vistosa. Tengo experiencia con HTML5,
+              CSS3, SAAS, Bootstrap, JavaScript, Java, Vite, Git y Github.
+            </p><br>
+            <a href="#proyectos"><button class="btn btn-verde">¡Conoce alguno de mis proyectos!</button></a>
+          </div>
+          <div class="right" data-aos="zoom-in-left">
+            <img src="assets/img/fotoCV.jpg" alt="Foto" />
+          </div>
+        </div>
       </section>
 
       <!-- Perfil profesional -->
 
-      <section id="perfil">
-        <h2>Professional Experience</h2>
-        <div class="glide">
-          <div class="glide__track" data-glide-el="track">
-            <ul class="glide__slides">
-              <li class="glide__slide">
-                <h3>Production Assistant</h3>
-                <p>
-                  <strong>Company:</strong> Castilla La Mancha Media (CMM)
-                </p>
-                <p>
-                  Managed the reception and distribution of images, videos,
-                  and multimedia content sent by delegations and news
-                  agencies. Organized live connections, supervised the
-                  technical team, and planned work and transportation
-                  logistics.
-                </p>
-              </li>
-              <li class="glide__slide">
-                <h3>Production Auxiliary</h3>
-                <p><strong>Company:</strong> Indaloymedia</p>
-                <p>
-                  Supported the production of the daily live program "En
-                  Compañía". Duties included guest reception, coordination of
-                  dressing rooms and makeup, and guest management.
-                </p>
-              </li>
-              <li class="glide__slide">
-                <h3>Production Assistant</h3>
-                <p><strong>Company:</strong> La Cometa</p>
-                <p>
-                  Assisted in the pre-production and production of the live
-                  program "Mañaneros", broadcasted on RTVE.
-                </p>
-              </li>
-              <li class="glide__slide">
-                <h3>Production Assistant</h3>
-                <p>
-                  <strong>Company:</strong> Castilla La Mancha Media (CMM)
-                </p>
-                <p>
-                  Supported the production of programs such as "Estando
-                  Contigo", "A Tu Vera", "En Compañía", and "Veinte Conmigo".
-                  Organized special events like the New Year’s Eve 2023
-                  broadcast and bullfighting coverage.
-                </p>
-              </li>
-              <li class="glide__slide">
-                <h3>Production Intern</h3>
-                <p>
-                  <strong>Company:</strong> Castilla La Mancha Media (CMM)
-                </p>
-                <p>Provided support to the program production department.</p>
-              </li>
-              <li class="glide__slide">
-                <h3>Team Coordinator</h3>
-                <p><strong>Company:</strong> Ecovidrio</p>
-                <p>
-                  Coordinated the human team during the Vuelta España. Oversaw
-                  safety and risk prevention for team members.
-                </p>
-              </li>
-            </ul>
+      <section id="perfil-prof" class="perfil-prof">
+        <div class="container" data-aos="zoom-in">
+          <h2 class="perfil-prof-heading">Get to know me!</h2>
+          <div class="perfil-prof-content">
+            <div class="perfil-prof-text">
+              <p>
+                I'm a <strong>Frontend Focused Web Developer</strong> building and managing the Front-end of Websites and Web Applications that contribute to the success of the overall product. Check out some of my work in the <a href="#projects">Projects</a> section.
+              </p>
+              <p>
+                I love sharing knowledge about <strong>Web Development</strong> and helping the community grow. You can follow me on my <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> and <a href="https://www.instagram.com" target="_blank">Instagram</a> where I post useful content.
+              </p>
+              <p>
+                I'm open to <strong>Job</strong> opportunities where I can contribute, learn, and grow. If you have a great opportunity that matches my skills, don't hesitate to <a href="#contact">contact me</a>.
+              </p>
+              <a href="#contact" class="btn">Contact Me</a>
+            </div>
+            <div class="perfil-prof-skills">
+              <h3>My Skills</h3>
+              <div class="skills">
+                <span class="skill">HTML5</span>
+                <span class="skill">CSS3</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Java</span>
+                <span class="skill">SASS</span>
+                <span class="skill">Bootstrap</span>
+                <span class="skill">Vite</span>
+                <span class="skill">Git</span>
+                <span class="skill">Github</span>
+              </div>
+            </div>
           </div>
-
-          <div class="glide__arrows" data-glide-el="controls">
-            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-              <i class="fa fa-chevron-left"></i>
-              <!-- Left arrow icon -->
-            </button>
-            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-              <i class="fa fa-chevron-right"></i>
-              <!-- Right arrow icon -->
-            </button>
-          </div>
-
-          <!-- Paginate -->
-          <div class="glide__pagination" data-glide-el="controls[nav]"></div>
         </div>
       </section>
+      
 
       <!-- Proyectos -->
       <section id="proyectos">
@@ -178,23 +139,24 @@
           </div>
         </div>
       </section>
-
-      <!-- Social lateral -->
-      
     </div>
-    <section class="social-lateral">
+
+    <!-- Social lateral -->
+    <div class="social-lateral">
       <a href="https://www.linkedin.com/in/juan-villoslada-jimenez/" target="_blank"><i class="fa fa-linkedin"
           aria-hidden="true"></i></a>
       <a href="https://github.com/jvillos" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
       <a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i></a>
       <a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i></a>
-    </section>
+    </div>
   </main>
   <footer>
     <div class="container">
       <div class="contact" id="contact">
         <div>
-          <h3>Juan Villoslada Jiménez</h3>
+          <a href="#sobremi">
+            <h3>Juan Villoslada Jiménez</h3>
+          </a>
           <p>Desarrollador web</p>
           <br>
           <p><i class="fa fa-envelope" aria-hidden="true"></i> jvillosl14@gmail.com</p>
