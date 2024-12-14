@@ -1,1 +1,51 @@
 @use "globals" as *;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $fonts-parrafos;
+}
+
+body{
+    background-image: url(../assets/img/light-bg.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.container {
+    width: $container-width;
+    margin: 0 auto;
+  
+    @include respond-to(small) {
+      width: 90%;
+    }
+  }
+  
+  h1 {
+    font-size: $size-h1-rem;
+    line-height: $lineheight-h1-rem;
+    font-family: $fonts-titulos;
+  }
+  
+  h2 {
+    font-size: $size-h2-rem;
+    line-height: $lineheight-h2-rem;
+    font-family: $fonts-titulos;
+  }
+  
+  h3 {
+    font-size: $size-h3-rem;
+    line-height: $lineheight-h3-rem;
+    font-family: $fonts-titulos;
+  }
+  
+  p {
+    font-size: $size-paragraph-rem;
+    line-height: $lineheight-paragraph-rem;
+  }
+  
+  caption {
+    font-size: $size-caption-rem;
+    line-height: $lineheight-paragraph-rem;
+  }

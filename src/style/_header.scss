@@ -1,1 +1,74 @@
 @use "globals" as *;
+
+header {
+    padding: 40px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @include respond-to(small) {
+            flex-direction: column;
+        }
+    }
+
+    .perfil {
+        display: flex;
+        align-items: center;
+
+        .perfil-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .perfil-nombre {
+            font-weight: bold;
+            color: $primary-black;
+            font-size: 18px;
+            /* Ajusta el tamaño de tu nombre */
+        }
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+
+        ul {
+            display: flex;
+            list-style: none;
+
+            @include respond-to(small) {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            color: $primary-black;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        li {
+            padding: 10px 30px;
+            border-radius: 20%;
+
+            &:hover {
+                background: $primary-grey;
+            }
+        }
+    }
+}
