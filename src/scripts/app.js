@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 // Importar la librería JS de AOS
 import AOS from 'aos';
 
+
 // Inicializar AOS
 document.addEventListener('DOMContentLoaded', () => {
     AOS.init({
@@ -17,4 +18,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
-

@@ -124,7 +124,49 @@ section {
         display: flex;
         justify-content: center;
     }
+}
 
+.proyectos {
+    padding-top: 130px;
+    text-align: center;
+    margin-bottom: 3rem;
+
+    .projects-container {
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .project-card {
+        background: $primary-white;
+        border-radius: $angle1-rem;
+        box-shadow: $shadow;
+        width: 45%;
+        max-width: 500px;
+        transition: transform 0.3s ease;
+        text-align: left;
+
+        &:hover {
+            transform: translateY(-10px);
+        }
+
+        .project-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .card-text{
+            padding: 1.5rem;
+        }
+
+        @include respond-to(small) {
+            width: 90%;
+            margin-bottom: 30px;
+        }
+    }
 
 
 }
