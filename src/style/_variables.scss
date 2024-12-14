@@ -11,7 +11,10 @@ $secondary-aqua: rgba(96, 200, 148, 1);
 $secondary-green: rgba(42, 153, 98, 1);
 $secondary-dark-green: rgba(28, 103, 66, 1);
 
-
+/* Color aplicado*/
+$bg-footer: $primary-black;
+$bg-btn-default: $secondary-green;
+$bg-btn-hover: $secondary-dark-green;
 
 /* TYPOGRAPHY */
 $size-h1: 68px;
@@ -38,10 +41,10 @@ $fonts-titulos: 'Oswald', sans-serif;
 $fonts-parrafos: 'Poppins' ,sans-serif;
 
 /* ICONS */
-$size-default: 50px;
-$size-default-rem: 3.125rem;
-$size-small: 30px;
-$size-small-rem: 1.875rem;
+$icon-size-default: 50px;
+$icon-size-default-rem: 3.125rem;
+$icon-size-small: 30px;
+$icon-size-small-rem: 1.875rem;
 
 /* ANGLES */
 $angle1: 5px;

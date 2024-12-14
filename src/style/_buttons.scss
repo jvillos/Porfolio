@@ -1,1 +1,17 @@
 @use "globals" as *;
+
+.btn {
+    border: none;
+    border-radius: $angle1-rem;
+    padding: 6px 20px;
+    font-size: $size-paragraph-rem;
+    color: $primary-white;
+}
+
+.btn-verde {
+    background-color: $bg-btn-default;
+
+    &:hover {
+        background-color: $bg-btn-hover;
+    }
+}

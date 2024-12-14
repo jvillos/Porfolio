@@ -47,6 +47,10 @@ header {
             font-size: 18px;
             /* Ajusta el tamaño de tu nombre */
         }
+
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 
     nav {
@@ -78,6 +82,7 @@ header {
 
             &:hover {
                 background: $primary-grey;
+                transform: scale(1.1);
             }
         }
     }

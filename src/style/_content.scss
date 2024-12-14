@@ -1,6 +1,6 @@
 @use "globals" as *;
 
-section{
+section {
     padding-top: 150px;
 
     @include respond-to(small) {

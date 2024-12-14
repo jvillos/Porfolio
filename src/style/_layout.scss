@@ -13,6 +13,9 @@ body{
     background-size: cover;
 }
 
+a{
+    text-decoration: none;
+}
 .container {
     width: $container-width;
     margin: 0 auto;

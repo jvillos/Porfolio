@@ -1,12 +1,229 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <script type="module" crossorigin src="/TECHBURGER/assets/index-B5Qt9EMX.js"></script>
+    <title>Portfolio</title>
+    <script type="module" crossorigin src="/Portfolio/assets/index-D0nYfck9.js"></script>
+    <link rel="stylesheet" crossorigin href="/Portfolio/assets/index-BD9n2f8o.css">
   </head>
   <body>
-    <div id="app"></div>
+    <header>
+      <div class="container">
+        <div class="perfil">
+          <div class="perfil-img">
+            <img src="/Portfolio/assets/fotoCV-Cyf7XKvE.jpg" alt="FotoPerfil" />
+          </div>
+          <div class="perfil-nombre">
+            <h3> Juan Villoslada Jiménez</h3>
+          </div>
+          
+        </div>
+        <div>
+          <nav>
+            <ul>
+              <li><a href="#sobremi">INICIO</a></li>
+              <li><a href="#sobremi">SOBRE MÍ</a></li>
+              <li><a href="#perfil">PERFIL</a></li>
+              <li><a href="#proyectos">PROYECTOS</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <!-- = About section = -->
+        <section id="sobremi">
+          <h1>Hey, It's Óliver Over Here!</h1>
+          <p>
+            A passionate Web Developer interested mostly in Frontend
+            development, <br />
+            with a strong focus on creating impactful user experiences.
+          </p>
+          <button><a href="#proyectos">PROJECTS</a></button>
+        </section>
+
+        <!-- Perfil profesional -->
+
+        <section id="perfil">
+          <h2>Professional Experience</h2>
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <h3>Production Assistant</h3>
+                  <p>
+                    <strong>Company:</strong> Castilla La Mancha Media (CMM)
+                  </p>
+                  <p>
+                    Managed the reception and distribution of images, videos,
+                    and multimedia content sent by delegations and news
+                    agencies. Organized live connections, supervised the
+                    technical team, and planned work and transportation
+                    logistics.
+                  </p>
+                </li>
+                <li class="glide__slide">
+                  <h3>Production Auxiliary</h3>
+                  <p><strong>Company:</strong> Indaloymedia</p>
+                  <p>
+                    Supported the production of the daily live program "En
+                    Compañía". Duties included guest reception, coordination of
+                    dressing rooms and makeup, and guest management.
+                  </p>
+                </li>
+                <li class="glide__slide">
+                  <h3>Production Assistant</h3>
+                  <p><strong>Company:</strong> La Cometa</p>
+                  <p>
+                    Assisted in the pre-production and production of the live
+                    program "Mañaneros", broadcasted on RTVE.
+                  </p>
+                </li>
+                <li class="glide__slide">
+                  <h3>Production Assistant</h3>
+                  <p>
+                    <strong>Company:</strong> Castilla La Mancha Media (CMM)
+                  </p>
+                  <p>
+                    Supported the production of programs such as "Estando
+                    Contigo", "A Tu Vera", "En Compañía", and "Veinte Conmigo".
+                    Organized special events like the New Year’s Eve 2023
+                    broadcast and bullfighting coverage.
+                  </p>
+                </li>
+                <li class="glide__slide">
+                  <h3>Production Intern</h3>
+                  <p>
+                    <strong>Company:</strong> Castilla La Mancha Media (CMM)
+                  </p>
+                  <p>Provided support to the program production department.</p>
+                </li>
+                <li class="glide__slide">
+                  <h3>Team Coordinator</h3>
+                  <p><strong>Company:</strong> Ecovidrio</p>
+                  <p>
+                    Coordinated the human team during the Vuelta España. Oversaw
+                    safety and risk prevention for team members.
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="glide__arrows" data-glide-el="controls">
+              <button
+                class="glide__arrow glide__arrow--left"
+                data-glide-dir="<"
+              >
+                <i class="fa fa-chevron-left"></i>
+                <!-- Left arrow icon -->
+              </button>
+              <button
+                class="glide__arrow glide__arrow--right"
+                data-glide-dir=">"
+              >
+                <i class="fa fa-chevron-right"></i>
+                <!-- Right arrow icon -->
+              </button>
+            </div>
+
+            <!-- Paginate -->
+            <div class="glide__pagination" data-glide-el="controls[nav]"></div>
+          </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section id="proyectos">
+          <h2>Projects</h2>
+          <div class="projects-container">
+            <div class="project-card">
+              <h3>TMDB Website</h3>
+              <p>
+                A web page made with a partner where we use the TMDB API and
+                make our vision come to life, allowing users to explore movies,
+                actors, and various data in an interactive way.
+              </p>
+              <p>
+                <strong>Technologies</strong>: <br />
+                JS,HTML5,VITE,CSS,Git
+              </p>
+              <button>
+                <a href="https://github.com/oligarc/TMDB-PROJECT"
+                  >View on Github</a
+                >
+              </button>
+            </div>
+            <div class="project-card">
+              <h3>Library</h3>
+              <p>
+                A web-based library system developed with the goal of managing
+                book loans, user records, and library data, providing efficient
+                tools for cataloging and searching.
+              </p>
+              <p>
+                <strong>Technologies</strong>: <br />
+                Java,JSP,JDBC,BS,JS
+              </p>
+              <button>
+                <a href="https://github.com/oligarc/BibliotecaWeb"
+                  >View on Github</a
+                >
+              </button>
+            </div>
+            <div class="project-card">
+              <h3>SHREK WEB</h3>
+              <p>
+                A Shrek based web page built with Sass, Vite, and Figma. It
+                showcases modern web design elements and responsive layouts used
+                for enriching the user experience.
+              </p>
+              <p><strong>Technologies</strong>: Sass, Vite, Figma, Git</p>
+              <button>
+                <a href="https://github.com/oligarc/SHREK-SASS-VITE"
+                  >View on Github</a
+                >
+              </button>
+            </div>
+          </div>
+        </section>
+
+       
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="row">
+            <div class="contact-info">
+              <p>&copy; 2024 Oligarc.</p>
+              <p>
+                Email:
+                <a href="mailto:oli17594@gmail.com">oliver25399@gmail.com</a>
+              </p>
+              
+            </div>
+
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/%C3%B3liver-garc%C3%ADa-rodr%C3%ADguez/"
+                target="_blank"
+                >LinkedIn</a
+              >
+              <a href="https://github.com/oligarc" target="_blank">GitHub</a>
+            </div>
+
+            <div class="quick-links">
+              <a href="#aboutSection">About me</a>
+              <a href="#projectSection">Projects</a>
+              <a href="#contactSection">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
   </body>
 </html>
